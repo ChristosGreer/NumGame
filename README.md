@@ -17,7 +17,7 @@ This goes on until the user guesses the number wrong. Their score is displayed, 
 Functional Requirements:
 
  Main Menu:
--Music is played when the site is opened
+-Music is played when the site is opened and during the game, and is mutable on the main menu
 -A main menu is displayed with the options to start the game or to view how to play
 -When clicking on how to play, the page changes to show the rules and an option to return back to the main menu
 
@@ -28,16 +28,16 @@ During the game:
 -An input box will be in the center of the screen for the user to input their guess
 
 If the user guesses the number:
-    -They are shown the next level
-    -They are shown the new number range
-    -They are sometimes given an extra life if they are below the max
+    -They are shown the next level and the page display changes slightly to show the new level number
+    -They are shown the new number range above the input box
+    -They are sometimes given an extra life if they are below the max number of lives
 
 If the user fails to guess the number:
     -They lose a life and are told if the number is higher or lower and then to guess again
 
 If the user runs out of lives:
-    -They are taken to a "game over" screen
-    -The level they made it to is displayed
+    -They are taken to a "game over" screen which displays some statistics
+    -The level they made it to is displayed as their score
     -Their score is displayed next to their previous score and highest score
-    -They are told if they got a new record
+    -They are told if they got a new record and if it is a new record it will also appear in the highest score spot
     -They are given the option to return to the main menu
