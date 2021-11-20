@@ -1,0 +1,49 @@
+#box {
+  border: 3px solid black;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  overflow: auto;
+  padding: 20px;
+}
+#mydata {
+  margin: 20px;
+  width: 80%;
+  margin: auto;
+  background: grey;
+  height: 60px;
+  font-family: monospace;
+  font-size: 2em;
+  text-align: center;
+  border: 1px black solid;
+}
+
+#mydata1 {
+  margin: 20px;
+  width: 50%;
+  margin: auto;
+  background: grey;
+  height: 60px;
+  font-family: monospace;
+  font-size: 2em;
+  text-align: center;
+  border: 1px black solid;
+}
+
+h1{
+  text-align: center;
+}
+
+
+.input {
+	border:none;
+	text-align:center;
+}
+
+[class*="column"] { 
+  width: 80%;
+  display:inline-block;
+  height:60vh;
+font-size:1.5em;
+}
+
