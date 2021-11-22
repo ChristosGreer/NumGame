@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title> NumGuess </title>
+  <link href="Project_New_CSS.css" type="text/css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="Project_New_Javascript.js"></script>
+</head>
+
+<body>
+    <h1 id="heading"></h1>
+    <div id = "first"> <button onclick="start()">Click To Start</button> </div> 
+
+    <div id = "box">
+
+        <p id ="question" style="font-family: sans-serif; font-size: 1.5em;"> Guess the number! </p>
+        <p id="mydata" class="newdata"><input id="num1" type="number" min="-32768" max="32767" /> </p>
+        <button onclick="submit()">Click To Submit Answer</button> </p>       
+
+    </div>
+
+    <div id = "leaderboard">
+        <p id = "score1"></p>
+        <p id = "score2"></p>
+        <p id = "score3"></p>
+    </div>
+
+</body>
